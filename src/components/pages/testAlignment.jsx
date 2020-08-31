@@ -1,7 +1,7 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 
-const TestAlignment = () => {
+const TestScreenSizing = () => {
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-device-width: 1224px)",
   });
@@ -32,4 +32,4 @@ const TestAlignment = () => {
   );
 };
 
-export default TestAlignment;
+export default TestScreenSizing;
